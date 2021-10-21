@@ -88,7 +88,6 @@ const getOnlineUsers = () => {
   return users;
 };
 
-// firestore user listesini ceker ve online olan kullanicilari ayristirir
 // geriye offline kullanicilari dondurur
 const getOfflineUsers = async () => {
   let usersCollection = await userRef.get();
